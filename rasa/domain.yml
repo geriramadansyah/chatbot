@@ -1,0 +1,26 @@
+version: "3.1"
+
+intents:
+  - greet
+  - ask_schedule
+  - ask_contact
+
+responses:
+  utter_greet:
+    - text: "Halo! Ada yang bisa saya bantu?"
+
+  utter_schedule:
+    - text: "Jadwal kuliah hari ini adalah pukul 08.00 - 16.00."
+
+  utter_contact:
+    - text: "Untuk informasi kontak dosen, silakan kunjungi website fakultas."
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_goodbye:
+    - text: "Goodbye!"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

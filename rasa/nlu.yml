@@ -1,0 +1,22 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Halo
+    - Hi
+    - Selamat siang
+    - Apa kabar?
+
+- intent: ask_schedule
+  examples: |
+    - Apa jadwal kuliah hari ini?
+    - Kapan kuliah dimulai?
+    - Jadwal kuliah fakultas hari ini
+
+- intent: ask_contact
+  examples: |
+    - Bagaimana cara menghubungi dosen?
+    - Kontak dosen
+    - Saya butuh informasi kontak dosen
+    
